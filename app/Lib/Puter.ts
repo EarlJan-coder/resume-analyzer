@@ -114,7 +114,7 @@ export const usePuterStore = create<PuterStore>((set, get) => {
                 getUser: get().auth.getUser,
             },
         });
-    };
+    }
 
     const checkAuthStatus = async (): Promise<boolean> => {
         const puter = getPuter();
